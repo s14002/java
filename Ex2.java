@@ -52,6 +52,9 @@ class Ex2_2 extends Ex{
 		System.out.println("平均は" + (x + y + z) / 3 + "です。");
 	}
 }
+
+
+
 public class Ex2 {
 	public static void main(String[] args){
 		Ex a;
