@@ -53,6 +53,38 @@ class Ex2_2 extends Ex{
 	}
 }
 
+class Ex2_00 extends Ex{
+void execute(){
+  Scanner stdIn = new Scanner(System.in);
+
+  System.out.print("xの値:");
+  int x = stdIn.nextInt();
+
+  System.out.print("yの値:");
+  int y = stdIn.nextInt();
+
+  System.out.print("x + x = " + (x + y));
+  System.out.print("x - x = " + (x - y));
+  System.out.print("x * x = " + (x * y));
+  System.out.print("x / x = " + (x / y));
+  System.out.print("x % x = " + (x % y));
+}
+}
+
+class Ex2_3 extends Ex{
+	void execute(){
+          Scanner stdIn = new Scanner(System.in);
+
+          System.out.println("");
+		int x = stdIn.nextInt();
+
+
+		System.out.println(x);	
+		System.out.println(x);
+		System.out.println(x);
+		System.out.println(x);
+	}
+}
 
 
 public class Ex2 {
@@ -63,6 +95,10 @@ public class Ex2 {
                 a = new Ex2_1();
                 a.execute();
                 a = new Ex2_2();
+                a.execute();
+                a = new Ex2_00(); 
+                a.execute();
+                a = new Ex2_3();
                 a.execute();
 	}
 }
