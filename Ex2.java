@@ -155,6 +155,18 @@ class Ex2_6 extends Ex{
   }
    }         
 
+
+class Ex2_8 extends Ex{
+  void execute(){
+      Random rand = new Random();
+
+      System.out.print("読み込んだ整数値プラスマイナス5の範囲の整数値をランダムに表示します。");
+      int luchy = rand.nextInt();   // 
+ 
+      System.out.println(luchy);
+  }
+   }          
+
 public class Ex2 {
 	public static void main(String[] args){
 		Ex a;
@@ -175,6 +187,8 @@ public class Ex2 {
                 a = new Ex2_6();
                 a.execute();
                 a = new Ex2_7();
+                a.execute();
+                a = new Ex2_8();
                 a.execute();
 	}
 }
