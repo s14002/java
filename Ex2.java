@@ -170,8 +170,12 @@ class Ex2_8 extends Ex{
 public class Ex2 {
 	public static void main(String[] args){
 		Ex a;
+/*
 		a = new Ex2_0();
+		a = new Ex2_00();
+		a = new Ex2_000();
 		a.execute();
+*/
                 a = new Ex2_1();
                 a.execute();
                 a = new Ex2_2();
