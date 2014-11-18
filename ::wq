@@ -32,8 +32,8 @@ class Ex3{
 
 	public String ex3_4(int a){
           if(a%5==0 && 0<a){return"その値は5で割り切れます";
-          }else if(a%5>0 && 0<a){return "その値は5で割り切れません";
-          }else{return "正でない整数値です";}
+          }else if(a%5>0){return "その値は5では割り切れません";
+          }else{return "正ではない整数値です";}
 
 	}
 
@@ -51,10 +51,10 @@ class Ex3{
         }
 
 	public String ex3_7(int a){
-	  if(a>=0&&a<=59){return "不可";
-          }else if(60<=a&&a<=69){return "可";
-          }else if(70<=a&&a<=79){return "良";
-          }else if(80<=a&&a<=100){return "優";
+	  if(a>=0&&a<=60){return "不可";
+          }else if(61<=a&&a<=70){return "可";
+          }else if(70<=a&&a<=80){return "良";
+          }else if(80<=a&&a<=101){return "優";
           }else{return "範囲(0～100)外の値です";}
 
         }
@@ -67,7 +67,7 @@ class Ex3{
 
 	public int ex3_9(int a, int b){
           int c = a-b;
-          if(0 <= c){return c;
+          if(c>=0){return c;
           }else{return (-c);
           }
 
@@ -76,23 +76,15 @@ class Ex3{
 
 	public String ex3_10(int a, int b){
          int c = a-b; 
-          if(0 <= c){
-            if(c <= 10){
-              return "それらの差は10以下です";
-            }else{return "それらの差は11以上です";
-            }
-          }
+          
+          if(c>=0){
+          if(c){}else{}}
+          else{"";}
 
-          else if(c < 0){
-            if((-c) <= 10){
-              return "それらの差は10以下です";
-            }else{return "それらの差は11以上です";
-            }
-          }
-          return "数値を入力してください";
-        } 
+        }
         
-	public String ex3_11(int a, int b, int c){return "";
+	public String ex3_11(int a, int b, int c){
+
         }
 
 }
